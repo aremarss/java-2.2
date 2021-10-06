@@ -8,11 +8,11 @@ public class Main {
         if (cashAdd >= 1000) {
             bonusAmount = cashAdd / 100; // Можно менять количество рублей, с которых будет начисляться один бонус.
             cashTotal = cash + cashAdd + bonusAmount;
-
         } else {
             bonusAmount = 0;
             cashTotal = cash + cashAdd;
         }
+
         System.out.println("Количество денег на текущем счете клиента: " + cashTotal + " руб.");
         System.out.println("Количество бонусных рублей: " + bonusAmount + " руб.");
     }
